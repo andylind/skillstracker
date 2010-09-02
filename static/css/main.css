@@ -13,8 +13,15 @@ body {
 #login {
     text-align:right;
     font-size: 13px;
+}
+#login a{
+    text-decoration: none;
     color: #0B506B;
 }
 #login a:hover{
     background: #2280A4;
+    text-decoration: none;
+    color: #0B506B;
 }
+
+    
