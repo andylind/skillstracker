@@ -7,23 +7,30 @@
     </head>
     <body>
         <div class="container_12">
-            <div id="header" class="grid_12">
-                <ul>
-                    <li>Skills Tracker</li>
-                    <li  id="login">
-                            Signed in as: {{user}} | <a href="{{ url }}">{{url_linktext}}</a>
-                    </li>
-                </ul>
+            <div id="header">
+                <div id="title" class="grid_3">
+                    Skills Tracker
+                </div>
+                <div id="login">
+                    Signed in as: {{user}} | <a href="{{ url }}">{{url_linktext}}</a>
+                </div>
             </div>
-             <br/>
-            <div id="current-skills">
+            <br/>
+            <div class="clear"></div>
+            <div id="current-skills" class="grid_12">
+                <table>
                 {% for skill in currentSkills %}
-                   {{ skill.name }} | {{ skill.proficiency }} | {{ skill.dateUpdated }}
-                   <br/>
+                    <tr>
+                        <td><span class="skill-name">{{ skill.name }}</span></td>
+                        <td><span class="skill-proficiency">{{ skill.proficiency }}</span></td>
+                        <td><span class="skill-dateUpdated">{{ skill.dateUpdated }}</span></td>
+                   </tr>
                 {% endfor %}
+                </table>
             </div>  
             <br/>
-            <div class="sills-form">
+            <div class="clear"></div>
+            <div class="sills-form grid_12">
                 <form action="/AddSkill" method="post">
                     <label>Skill Name</label>
                     <input id="skillName" size="25" type="text" name="skillName">
@@ -33,7 +40,10 @@
                     <br/>
                     <input type="submit" value="Add Skill">
                 </form>
+                <br/>
             </div>
+            
+            <div class="clear"></div>
         </div>
     </body> 
 </html>

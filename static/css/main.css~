@@ -1,10 +1,17 @@
 body {
     font-family: Verdana,Helvetica,sans-serif;
+    color: #111111;
+    font-size: 13px;
 }
+.container_12{
+    background: #F2F2F2;
+}
+
 #header {
     margin: 0px;
-    padding: 5px;
-    background: #20BC59;
+    padding: 6px;
+    background: #30CC69;
+    color: #000000;
 }
 #title{
     font-weight: bold;
@@ -13,8 +20,21 @@ body {
 #login {
     text-align:right;
     font-size: 13px;
+    padding-right: 5px;
+}
+#login a{
+    text-decoration: none;
     color: #0B506B;
 }
 #login a:hover{
     background: #2280A4;
+    text-decoration: none;
+    color: #111111;
 }
+
+.skill-name{
+    font-weight: bold;
+}
+
+
+    
