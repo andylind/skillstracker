@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/static/css/grid.css" />
+        <title>Skills Tracker</title>
+    </head>
+    <body>
+        <div>
+            <div id="header">
+                Skills Tracker  |
+                Signed in as: {{user}} | 
+                <a href="{{ url }}">{{url_linktext}}</a>
+            </div>
+             <br/>
+            <div id="current-skills">
+                {% for skill in currentSkills %}
+                   {{ skill.name }} | {{ skill.proficiency }} | {{ skill.dateUpdated }}
+                   <br/>
+                {% endfor %}
+            </div>  
+            <br/>
+            <div class="sills-form">
+                <form action="/AddSkill" method="post">
+                    <label>Skill Name</label>
+                    <input id="skillName" size="25" type="text" name="skillName">
+                    <br/>
+                    <label>Proficency</label>
+                    <input id="proficiency" size="25" type="text" name="proficiency">
+                    <br/>
+                    <input type="submit" value="Add Skill">
+                </form>
+            </div>
+        </div>
+    </body> 
+</html>
+

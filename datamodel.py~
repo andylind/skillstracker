@@ -1,0 +1,7 @@
+from google.appengine.ext import db
+
+class Skill(db.Model):
+    user = db.UserProperty()
+    skillName = db.StringProperty()
+    proficiency = db.StringProperty()
+    dateUpdated = db.DateTimeProperty(auto_now_add=True)
