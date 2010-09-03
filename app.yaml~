@@ -9,7 +9,7 @@ handlers:
   login: admin
 
 - url: /.*
-  script: until.py
+  script: skills-tracker.py
   login: admin
 
 

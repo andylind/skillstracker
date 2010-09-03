@@ -1,21 +1,23 @@
-body {
-    font-family: Verdana,Helvetica,sans-serif;
-    color: #111111;
-    font-size: 13px;
+body{
+    font-size:12px;
+    font-family:Verdana,Helvetica,sans-serif;
+    color:#191919;
+
 }
+
 .container_12{
-    background: #F2F2F2;
+        background:#DDDDDD;
 }
 
 #header {
     margin: 0px;
-    padding: 6px;
+    padding: 7px 6px 9px 6px;
     background: #30CC69;
     color: #000000;
 }
 #title{
     font-weight: bold;
-    font-size: 14px; 
+    font-size: 15px; 
 }
 #login {
     text-align:right;
@@ -32,9 +34,251 @@ body {
     color: #111111;
 }
 
+.category{
+    background:#FFFFFF;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding:10px;  
+}
+.category-header{
+    font-size:16px;
+    padding-left:2px;
+    border-bottom: 2px solid;
+    border-color:#555555;
+    padding-bottom:3px;
+    margin-bottom:3px;
+}
+.category .category-content table{
+    padding-left:10px;
+}
+
 .skill-name{
-    font-weight: bold;
+    padding-right:5px;
+    margin-bottom:-3px;
+    font-size:12px;
+    text-align:right;
+}
+.skill-date-updated{
+    font-style:italic;
+    padding-right:9px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.radio-1, .radio-2, .radio-3, .radio-4, .radio-5{
+    background:url("/static/img/green-circles.png") no-repeat scroll 0 0 transparent;
+    width:15px;
+    text-decoration:none;
+    font-size: 13px;
+    background-position:-78px 0;
+    padding: 0px 8px 0px 7px;
+    position:relative;
+    top:2px;
+    outline: none;
 }
 
 
-    
+.set-1 a.radio-1{
+    background-position:-0px 0;
+}
+.set-1 a.radio-2{
+    background-position:-78px 0;
+}
+.set-1 a.radio-3{
+    background-position:-78px 0;
+}
+.set-1 a.radio-4{
+    background-position:-78px 0;
+}
+.set-1 a.radio-5{
+    background-position:-78px 0;
+}
+
+.set-2 a.radio-1{
+    background-position:-0px 0;
+}
+.set-2 a.radio-2{
+    background-position:-16px 0;
+}
+.set-2 a.radio-3{
+    background-position:-78px 0;
+}
+.set-2 a.radio-4{
+    background-position:-78px 0;
+}
+.set-2 a.radio-5{
+    background-position:-78px 0;
+}
+
+.set-3 a.radio-1{
+    background-position:-0px 0;
+}
+.set-3 a.radio-2{
+    background-position:-16px 0;
+}
+.set-3 a.radio-3{
+    background-position:-31px 0;
+}
+.set-3 a.radio-4{
+    background-position:-78px 0;
+}
+.set-3 a.radio-5{
+    background-position:-78px 0;
+}
+
+.set-4 a.radio-1{
+    background-position:-0px 0;
+}
+.set-4 a.radio-2{
+    background-position:-16px 0;
+}
+.set-4 a.radio-3{
+    background-position:-31px 0;
+}
+.set-4 a.radio-4{
+    background-position:-47px 0;
+}
+.set-4 a.radio-5{
+    background-position:-78px 0;
+}
+
+.set-5 a.radio-1{
+    background-position:-0px 0;
+}
+.set-5 a.radio-2{
+    background-position:-16px 0;
+}
+.set-5 a.radio-3{
+    background-position:-31px 0;
+}
+.set-5 a.radio-4{
+    background-position:-47px 0;
+}
+.set-5 a.radio-5{
+    background-position:-63px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.value-1 a.radio-1{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-0px 0;
+}
+.value-1 a.radio-2{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+.value-1 a.radio-3{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+.value-1 a.radio-4{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+.value-1 a.radio-5{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+
+.value-2 a.radio-1{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-0px 0;
+}
+.value-2 a.radio-2{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-16px 0;
+}
+.value-2 a.radio-3{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+.value-2 a.radio-4{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+.value-2 a.radio-5{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+
+.value-3 a.radio-1{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-0px 0;
+}
+.value-3 a.radio-2{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-16px 0;
+}
+.value-3 a.radio-3{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-31px 0;
+}
+.value-3 a.radio-4{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+.value-3 a.radio-5{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+
+.value-4 a.radio-1{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-0px 0;
+}
+.value-4 a.radio-2{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-16px 0;
+}
+.value-4 a.radio-3{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-31px 0;
+}
+.value-4 a.radio-4{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-47px 0;
+}
+.value-4 a.radio-5{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-78px 0;
+}
+
+.value-5 a.radio-1{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-0px 0;
+}
+.value-5 a.radio-2{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-16px 0;
+}
+.value-5 a.radio-3{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-31px 0;
+}
+.value-5 a.radio-4{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-47px 0;
+
+}
+.value-5 a.radio-5{
+    background:url("/static/img/bright-green-circles.png") no-repeat scroll 0 0 transparent;
+    background-position:-63px 0;
+}
+
+
+
+
+
+
