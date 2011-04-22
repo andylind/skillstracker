@@ -68,8 +68,44 @@ body{
     text-align: center;
 }
 
-.radio-1, .radio-2, .radio-3, .radio-4, .radio-5{
+.blue-circles .radio-1,.blue-circles .radio-2,.blue-circles .radio-3,.blue-circles .radio-4,.blue-circles .radio-5{
+    background:url("/static/img/blue-circles.png") no-repeat scroll 0 0 transparent;
+    width:15px;
+    text-decoration:none;
+    font-size: 13px;
+    background-position:-78px 0;
+    padding: 0px 8px 0px 7px;
+    position:relative;
+    top:2px;
+    outline: none;
+}
+
+.green-circles .radio-1, .radio-2, .radio-3, .radio-4, .radio-5{
     background:url("/static/img/green-circles.png") no-repeat scroll 0 0 transparent;
+    width:15px;
+    text-decoration:none;
+    font-size: 13px;
+    background-position:-78px 0;
+    padding: 0px 8px 0px 7px;
+    position:relative;
+    top:2px;
+    outline: none;
+}
+
+.purple-circles .radio-1, .radio-2, .radio-3, .radio-4, .radio-5{
+    background:url("/static/img/purple-circles.png") no-repeat scroll 0 0 transparent;
+    width:15px;
+    text-decoration:none;
+    font-size: 13px;
+    background-position:-78px 0;
+    padding: 0px 8px 0px 7px;
+    position:relative;
+    top:2px;
+    outline: none;
+}
+
+.orange-circles .radio-1, .radio-2, .radio-3, .radio-4, .radio-5{
+    background:url("/static/img/orange-circles.png") no-repeat scroll 0 0 transparent;
     width:15px;
     text-decoration:none;
     font-size: 13px;

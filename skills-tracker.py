@@ -94,10 +94,14 @@ class Setup(webapp.RequestHandler):
     def get(self):
         newSkill = Skill()
         newSkill.name =  'Java'
-        newSkill.category =  'Java'
-        newSkill.proficiency = '3'
+        newSkill.category =  '.NET'
+        newSkill.proficiency = '5'
         newSkill.user = users.get_current_user()
         newSkill.put()
+        
+
+
+
         self.redirect('/')
 
 application = webapp.WSGIApplication(
